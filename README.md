@@ -1,30 +1,42 @@
-## β-house 项目开发规范
-
+# β-house 项目开发规范  
+![](https://img.shields.io/badge/%CE%B2--house-rule-brightgreen.svg)
 ### IDE及开发环境
 
 - IntelliJ IDEA
 
-代码文件头和代码注解设置位置：Editor > File and Code Template > Includes 新增两条内容：
+1. 代码文件头和代码注解设置位置：Editor > File and Code Template > Includes 新增两条内容：
 
-1. Betahouse Copyright
+    1. Betahouse Copyright
+    ```java
+    /**
+    * betahouse.us
+    * CopyRight (c) 2012 - ${YEAR}
+    */
+    ```
 
-```java
-/**
- * betahouse.us
- * CopyRight (c) 2012 - ${YEAR}
- */
-```
+    2. Betahouse Header
 
-2. Betahouse Header
+    ```java
+    /**
+    * @author ${USER}
+    * @version : ${NAME}.java ${YEAR}/${MONTH}/${DAY} ${TIME} ${USER}
+    */
+    ```
+    ![](img/java_code_includes.png)
 
-```java
-/**
- * @author ${USER}
- * @version : ${NAME}.java ${YEAR}/${MONTH}/${DAY} ${TIME} ${USER}
- */
-```
+2. 之后配置在 Files 里面对应 Class Interface Enum 配置上  
+
+    ![](img/java_code_header.png)  
+
+3. 序列化的对象务必写序列化id serialVersionUID   
+
+    ![](img/java_serializable.png)
+    > 可以在 idea 上配置序列化对象无序列化id 警告  
 
 
+
+
+---
 
 ### GIT
 
@@ -43,6 +55,7 @@ git commit -m "新增记录员批量删除接口"
 ```
 
 
+---
 
 ### 注释与代码规范
 
@@ -58,11 +71,15 @@ git commit -m "新增记录员批量删除接口"
 
 **建议阅读《阿里巴巴JAVA开发手册》**
 
-
+---
 
 ### 其他配置文件
 
 注：README/COPYING/LICENSE/NOTICE/CHANGES 等文件名均采用大写
+
+<font color="#f00">**warn!!! 禁止将服务器配置文件上传 github**</font>
+
+---
 
 #### README.md
 
@@ -83,6 +100,7 @@ README应包含以下内容（根据项目实际情况选择）：
 参考：[AntDesign的README界面](https://github.com/ant-design/ant-design/blob/master/README.md)
 
 
+---
 
 #### CHANGELOG.md
 
@@ -102,7 +120,7 @@ README应包含以下内容（根据项目实际情况选择）：
 
 https://keepachangelog.com/zh-CN/1.0.0/
 
-
+---
 
 ### 关于CodeReview & 发布
 
@@ -111,9 +129,12 @@ https://keepachangelog.com/zh-CN/1.0.0/
 2. 线上发布前需告知项目负责人统筹其他相关方。
 
 
+---
 
 ### 数据安全
 
 1. 所有变更必须同步负责人或指导老师(含发布, 数据库数据订正, 服务器重启等)
 
-2. **严禁私自篡改或利用数据，一经发现，严肃处理。**
+2. <font color="#f00">**严禁私自篡改或利用数据，一经发现，严肃处理。**</font>
+
+3. 遵守开源社区规则，开源软件如用于**商用牟利，后果自负**
