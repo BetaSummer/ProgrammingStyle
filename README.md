@@ -31,8 +31,8 @@
 3. 序列化的对象务必写序列化id serialVersionUID   
 
     ![](img/java_serializable.png)
-    > 可以在 idea 上配置序列化对象无序列化id 警告  
 
+    > 可以在 idea 上配置序列化对象无序列化id 警告  
 
 
 
@@ -53,7 +53,6 @@ git config –global user.name “your_id.your_name”
 ```bash
 git commit -m "新增记录员批量删除接口"
 ```
-
 
 ---
 
@@ -77,7 +76,7 @@ git commit -m "新增记录员批量删除接口"
 
 注：README/COPYING/LICENSE/NOTICE/CHANGES 等文件名均采用大写
 
-<font color="#f00">**warn!!! 禁止将服务器配置文件上传 github**</font>
+<font color="#f00">**warning!!! 请不要将任何服务器配置文件上传到 github**</font>
 
 ---
 
@@ -98,7 +97,6 @@ README应包含以下内容（根据项目实际情况选择）：
 - 版权信息
 
 参考：[AntDesign的README界面](https://github.com/ant-design/ant-design/blob/master/README.md)
-
 
 ---
 
@@ -127,7 +125,6 @@ https://keepachangelog.com/zh-CN/1.0.0/
 1. 发布前建议有2人(含开发)及以上进行CR。
 
 2. 线上发布前需告知项目负责人统筹其他相关方。
-
 
 ---
 
