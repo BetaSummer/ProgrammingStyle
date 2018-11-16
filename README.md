@@ -68,8 +68,8 @@ git commit -m "新增记录员批量删除接口"
 
 5. 代码中不能出现魔法值，尽量使用常量、常量类或枚举类管理
 
-6. 注意PMD问题(不必要的变量/引用等)
-![](img/java_unnecessary_import.png)
+6. 注意PMD问题(不必要的变量/引用等)  
+    ![](img/java_unnecessary_import.png)
 
 7. 数据库建库时索引命名规范, 唯一索引名称用 uk_xxx , 一般索引名称 idx_xxx。 xxx为对应的字段名称  
 例如: idx_open_id, uk_user_id_user_info_id等
