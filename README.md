@@ -34,6 +34,9 @@
 
     > 可以在 idea 上配置序列化对象无序列化id 警告  
 
+4. 代码写完之后需要格式化下  
+windows ctrl + alt + L  
+mac command + alt + L
 
 
 ---
@@ -52,6 +55,12 @@ git config –global user.name “your_id.your_name”
 
 ```bash
 git commit -m "新增记录员批量删除接口"
+```
+
+3. linux 换行符 lf， windows 换行符是crlf  输入以下指令 统一使用crlf
+
+```bash
+git config --global core.autocrlf input
 ```
 
 ---
