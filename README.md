@@ -38,7 +38,6 @@
 windows ctrl + alt + L  
 mac command + alt + L
 
-
 ---
 
 ### GIT
@@ -97,7 +96,7 @@ git config --global core.autocrlf input
 
 ### 其他配置文件
 
-注：README/COPYING/LICENSE/NOTICE/CHANGES 等文件名均采用大写
+注：README/COPYING/LICENSE/NOTICE/CHANGELOG 等文件名均采用大写
 
 <font color="#f00">**warning!!! 请不要将任何服务器配置文件上传到 github**</font>
 
